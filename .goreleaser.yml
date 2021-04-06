@@ -1,0 +1,39 @@
+project_name: saiyan
+
+builds:
+  - main: ./main.go
+    ldflags:
+      - -s -w -X 'github.com/sohaha/zzz/zcli.BuildTime={{.Date}}' -X 'github.com/sohaha/zzz/zcli.Version={{.Version}}'
+    goos:
+      - windows
+      - linux
+      - darwin
+    goarm:
+      - 6
+      - 7
+    ignore:
+    env:
+      - CGO_ENABLED=0
+      - GO111MODULE=on
+
+archives:
+  - replacements:
+      darwin: Darwin
+      linux: Linux
+      windows: Windows
+      386: i386
+      amd64: x86_64
+
+checksum:
+  name_template: 'checksums.txt'
+
+snapshot:
+  name_template: 'next'
+
+changelog:
+  sort: asc
+  filters:
+    exclude:
+      - '^docs:'
+      - '^test:'
+      - (?i)--
