@@ -1,5 +1,7 @@
 github.com/sohaha/saiyan v0.0.0-20210310033815-932569c4970e h1:vFy32NtWB0kBaRgtng2NbCSMq7ndtXv3SZL3NyZiw2s=
 github.com/sohaha/saiyan v0.0.0-20210310033815-932569c4970e/go.mod h1:h0t4C1lt5VdwHFzSL+h0kAy4AmVZPiX1TCiNQFO/n3Y=
+github.com/sohaha/zlsgo v1.1.14 h1:3OB65FTNait8a1iHrDU04fg2b0RCMoHHJXoaBoaoKKE=
+github.com/sohaha/zlsgo v1.1.14/go.mod h1:8jszf9qU6E2SJTQjxJ1LYKI717Zwa5YZx1gG0dxsukA=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
 golang.org/x/crypto v0.0.0-20200820211705-5c72a883971a/go.mod h1:LzIPMQfyMNhhGPhUkYOs5KpL4U8rLKemX1yGLhDgUto=
 golang.org/x/crypto v0.0.0-20210322153248-0c34fe9e7dc2 h1:It14KIkyBFYkHkwZ7k45minvA9aorojkyjGk9KJ5B/w=

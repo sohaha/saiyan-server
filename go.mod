@@ -1,6 +1,7 @@
 module saiyan
 
 go 1.11
+
 require (
 	github.com/sohaha/saiyan v0.0.0-20210310033815-932569c4970e
 	github.com/sohaha/zlsgo v1.1.14
